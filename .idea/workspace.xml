@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c6d387-e93c-474f-b590-300933558f34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ControladorAdministrador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ControladorAluno.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ControladorEndereco.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ControladorUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +152,7 @@
       <workItem from="1575932763424" duration="1321000" />
       <workItem from="1576429856234" duration="406000" />
       <workItem from="1576459624928" duration="4702000" />
-      <workItem from="1576504071886" duration="7070000" />
+      <workItem from="1576504071886" duration="13128000" />
     </task>
     <servers />
   </component>

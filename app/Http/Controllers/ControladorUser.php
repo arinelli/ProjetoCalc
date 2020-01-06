@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Foundation\Auth\User;
 use Illuminate\Http\Request;
 
 class ControladorUser extends Controller
@@ -13,7 +14,7 @@ class ControladorUser extends Controller
      */
     public function index()
     {
-        //
+        return view('novousuario');
     }
 
     /**
@@ -23,7 +24,7 @@ class ControladorUser extends Controller
      */
     public function create()
     {
-        //
+        return view('novousuario');
     }
 
     /**
@@ -34,7 +35,16 @@ class ControladorUser extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $user = new User();
+        $user->name =$request->input('nomeUsuario');
+        $user->cpf =$request->input('cpf');
+
+        $user->email =$request->input('email');
+        $user->password = $request->input('senha');
+
+        $user->save();
+
+        return redirect('/users');
     }
 
     /**

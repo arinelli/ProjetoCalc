@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c6d387-e93c-474f-b590-300933558f34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ControladorAdministrador.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ControladorAluno.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ControladorEndereco.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ControladorUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/componente_navbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/novoaluno.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/novousuario.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ControladorUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ControladorUser.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +116,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1UlYg4NZp8KMigyZkfWtjosc2zx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -152,7 +154,15 @@
       <workItem from="1575932763424" duration="1321000" />
       <workItem from="1576429856234" duration="406000" />
       <workItem from="1576459624928" duration="4702000" />
-      <workItem from="1576504071886" duration="13128000" />
+      <workItem from="1576504071886" duration="14590000" />
+      <workItem from="1576697488635" duration="3576000" />
+      <workItem from="1577655039534" duration="2767000" />
+      <workItem from="1577718040056" duration="597000" />
+      <workItem from="1577972140535" duration="1198000" />
+      <workItem from="1578013551034" duration="467000" />
+      <workItem from="1578059845288" duration="2449000" />
+      <workItem from="1578166094390" duration="5025000" />
+      <workItem from="1578263477977" duration="600000" />
     </task>
     <servers />
   </component>
@@ -164,7 +174,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

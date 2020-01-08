@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c6d387-e93c-474f-b590-300933558f34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/componente_navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/novoaluno.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/novousuario.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ControladorUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ControladorUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ControladorAluno.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ControladorAluno.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_16_013956_create_enderecos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_16_013956_create_enderecos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_16_014042_create_alunos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_16_014042_create_alunos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/novoaluno.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/novoaluno.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +160,9 @@
       <workItem from="1578013551034" duration="467000" />
       <workItem from="1578059845288" duration="2449000" />
       <workItem from="1578166094390" duration="5025000" />
-      <workItem from="1578263477977" duration="600000" />
+      <workItem from="1578263477977" duration="916000" />
+      <workItem from="1578313991963" duration="861000" />
+      <workItem from="1578491117460" duration="6482000" />
     </task>
     <servers />
   </component>

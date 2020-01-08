@@ -2,7 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Foundation\Auth\User;
 use Illuminate\Http\Request;
+
+use App\Aluno;
+use App\Endereco;
+
+
+
 
 class ControladorAluno extends Controller
 {
@@ -13,7 +20,7 @@ class ControladorAluno extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
@@ -23,7 +30,7 @@ class ControladorAluno extends Controller
      */
     public function create()
     {
-        //
+        return view('novoaluno');
     }
 
     /**
@@ -34,7 +41,18 @@ class ControladorAluno extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $aluno = new Aluno();
+        $end = new Endereco();
+
+        $aluno->name =$request->input('nomeUsuario');
+        $aluno->cpf =$request->input('cpf');
+
+        $aluno->email =$request->input('email');
+        $aluno->password = $request->input('senha');
+
+        $aluno->save();
+
+        return redirect('/users');
     }
 
     /**
